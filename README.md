@@ -8,43 +8,67 @@
 2. Make public, and add a README.md fi
 3. clone repository in VS Code
 4. Add .gitignore with:
-    ```# Ignore project virtual environment in the .venv folder```
-    ```.venv/```
+   
+    ```
+        # Ignore project virtual environment in the .venv folder
+        .venv/
     
-    ```# Ignore Visual Studio Code settings in the .vscode folder```
-    ```.vscode/```
+       # Ignore Visual Studio Code settings in the .vscode folder```
 
-    ```# Ignore macOS specific files```
-    ```.DS_Store```
+       .vscode/
 
-      # If the project uses Jupyter Notebooks include the following
-        .ipynb_checkpoints/```
-5. Add a requirements.txt file with 
-    ```jupyterlab```
-    ```numpy```
-    ```pandas```
-    ```pyarrow```
-    ```matplotlib```
-    ```seaborn```
-    ```scipy```
-6. To update local machine with changes to repo made in GitHub
-    ```git pull``
+       # Ignore macOS specific files
+         .DS_Store
 
-7. To updat GitHub with changes to rep made locally.
-    ```git add .```
-    ```git commit -m "msg"```
-    ```git push origin main```
+       # If the project uses Jupyter Notebooks include the following
+
+          .ipynb_checkpoints/
+    ```
+   
+6. Add a requirements.txt file with 
+
+```
+jupyterlab
+numpy
+pandas
+pyarrow
+matplotlib
+seaborn
+scipy
+```
+
+7. To update local machine with changes to repo made in GitHub
+
+    ```git pull```
+
+8. To updat GitHub with changes to rep made locally.
+
+    ```
+    git add .
+    git commit -m "msg"
+    git push origin main
+    ```
+
 
 ## Create a Virtual Environment 
 Creat a virtual environment to be ablle to install dependencies that will not interfere with my machine. 
 
 1. create a virtual environment
-```python3 -m venv .venv```
+   
+```
+python3 -m venv .venv
+```
 
 2. activate virtual environment
-```source .venv/bin/activate```
+   
+```
+source .venv/bin/activate
+```
 
 3. Install requirement
-```python3 -m pip install -r requirements.txt```
+   
+```
+python3 -m pip install -r requirements.txt
+```
 
 
