@@ -70,5 +70,9 @@ source .venv/bin/activate
 ```
 python3 -m pip install -r requirements.txt
 ```
+## Project 
+Follow guided examples 10.16 and 15.4 in text book "Intro to Python for Computer Science and 
+Data Science"
 
+Source: https://github.com/pdeitel/IntroToPython
 
